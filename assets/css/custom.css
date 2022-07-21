@@ -148,6 +148,9 @@ nav{
     margin:0;
     padding: 0;
   }
+  .section-heading{
+    margin-top: 18px!important;
+  }
   #banner-img{
    padding: 0;
    margin: 0;
@@ -159,7 +162,7 @@ nav{
     text-align: justify;
   }
   .about-section{
-    padding: 0!important;
+    /* padding: 1px!important; */
     margin: 0!important;
     /* display: none; */
   }
@@ -192,4 +195,37 @@ nav{
   #desc1{
     padding: 40px 20px!important;
   }
+  .abt-sec{
+    margin-top: 12px!important;
+  }
+  
+  .owl-next:before{
+    content: "\f0da";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  .owl-prev:before {
+    content: "\f0d9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 30px;
+    padding-right: 4px;
+}
+  #sync1.owl-theme .owl-next, #sync1.owl-theme .owl-prev {
+    /* margin-top: 60px; */
+    width: 24px;
+    height: 24px;
+}
+#sync1.owl-theme .owl-prev{
+  margin-left: -5px!important;
+}
+.new-div{
+  padding: 0px!important;
+}
+.responsive{
+  margin: 0px!important;
+  padding: 0px!important;
+}
 }
