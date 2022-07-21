@@ -138,3 +138,44 @@ display:none;
 nav{
   height: 56px!important;
 }
+.tag{
+  padding: 2px!important;
+  margin: 5!important;
+
+}
+@media screen and (max-width:400px) {
+  *{
+    margin:0;
+    padding: 0;
+  }
+  #banner-img{
+   padding: 0;
+   margin: 0;
+   margin-top: 20px;
+   height: 130%!important;
+    
+  }
+  p{
+    text-align: justify;
+  }
+  .about-section{
+    padding: 0!important;
+    margin: 0!important;
+    /* display: none; */
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .description {
+    padding: 0!important;
+    margin: 0!important;
+    width: 100%!important;
+  }
+  .faq , .about , .abt-section{
+    padding: 0px !important;;
+    margin: 0px!important;
+  }
+}
