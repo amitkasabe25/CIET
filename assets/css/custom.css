@@ -1,0 +1,140 @@
+
+body
+{
+  /* font-family: 'Poppins', sans-serif; */
+overflow-x:hidden!important;
+} 
+  
+    #sync1 .item {
+
+  padding-left:x ;
+  margin: px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+
+
+
+#sync2 .item {
+  
+  padding:;
+  margin: px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+#sync2 .item h1 {
+  font-size: 18px;
+}
+#sync2 .current .item {
+  background: #0c83e7;
+}
+
+.owl-theme .owl-nav {
+  /*default owl-theme theme reset .disabled:hover links */
+}
+.owl-theme .owl-nav [class*='owl-'] {
+  transition: all .3s ease;
+}
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+}
+
+#sync1.owl-theme {
+  position: relative;
+}<!--
+#sync1.owl-theme .owl-next, #sync1.owl-theme .owl-prev {
+  width: 22px;
+  height: 40px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+}
+#sync1.owl-theme .owl-prev {
+  left: 10px;
+}
+#sync1.owl-theme .owl-next {
+  right: 10px;
+}-->
+
+
+#sync1.owl-theme .owl-next, #sync1.owl-theme .owl-prev  {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 90%;
+    display: block;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    background: #cd671e;
+}
+
+#sync1.owl-theme .owl-prev {
+    left: -20px;
+    z-index: 1;
+}
+
+.owl-next:before, .owl-prev:before {
+    font-family: slick;
+    font-size: 20px;
+    line-height: 0.75;
+    opacity: 1;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.owl-prev:before {
+    content: "\f0d9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 60px;
+	padding-right:12px;
+}
+
+#sync1.owl-theme .owl-next {
+    right: -20px;
+}
+
+.owl-next:before {
+    content: "\f0da";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 60px;
+	padding-left:12px;
+}
+
+
+	
+svg{
+display:none;
+}
+
+.testimony .description .icoo{
+    content: "f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: -60px;
+    left: 650px;
+    font-size: 50px;
+    color: #40403e;
+}
+nav{
+  height: 56px!important;
+}
