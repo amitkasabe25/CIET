@@ -170,18 +170,26 @@ nav{
     align-items: center;
   }
   .description {
-    padding: 0!important;
+    padding: 100px!important;
     margin: 0!important;
     width: 100%!important;
   }
-  .faq , .about , .abt-section{
+    .about , .abt-section{
     padding: 0px !important;;
-    margin: 0px!important;
+    margin-top: 15px!important;
+  }
+  .faq{
+    /* margin-top: 10px 0px!important; */
+    margin: 0!important;
+    padding: 10px 0!important;
   }
   .starts{
     margin-left:20px!important;
   }
   .str{
     margin-right: 35px!important;
+  }
+  #desc1{
+    padding: 40px 20px!important;
   }
 }
